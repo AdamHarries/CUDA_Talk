@@ -1,0 +1,15 @@
+#To compile each of the examples:
+
+waves_cuda.cu
+	Compile using: nvcc waves_cuda.cu -o wcc
+	Run (on linux): optirun ./nvcc
+
+waves_normal.c
+	Compile using: gcc -std=c99 waves_normal.c -o ncc
+	Run: ./ncc
+
+waves_normal.py:
+	Run: python ./waves_normal.py
+
+waves_cuda.py:
+	Run: optirun python ./waves_cuda.py
